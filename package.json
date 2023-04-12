@@ -1,0 +1,30 @@
+{
+  "name": "ethers-scripts",
+  "version": "1.0.0",
+  "description": "simple scripts for web3 freshman",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "npx git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bot80926/ethers-scripts.git"
+  },
+  "keywords": [
+    "web3",
+    "frontend",
+    "ethers",
+    "blockchain",
+    "javascript"
+  ],
+  "author": "Bot80926",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bot80926/ethers-scripts/issues"
+  },
+  "homepage": "https://github.com/Bot80926/ethers-scripts#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "ethers": "^4.0.0"
+  }
+}
