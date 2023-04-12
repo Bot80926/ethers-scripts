@@ -1,4 +1,4 @@
-# ethers-scripts  ![](https://img.shields.io/badge/license-MIT-blue) ![](https://img.shields.io/badge/version-v1.0.0-blue) ![](https://img.shields.io/badge/nodejs-passing-brightgreen)
+# ethers-scripts  ![](https://img.shields.io/badge/license-MIT-blue) ![](https://img.shields.io/badge/version-v1.0.0-blue) ![](https://img.shields.io/badge/ethers-v4.0.0-blue) ![](https://img.shields.io/badge/nodejs-passing-brightgreen)
 
 
 作者创建这个库的意图
