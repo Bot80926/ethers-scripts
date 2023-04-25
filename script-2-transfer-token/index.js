@@ -7,15 +7,14 @@
  * 
  */
 
+// kcc network info: https://docs.kcc.io/developers/network-endpoints
+// kcc faucet: https://faucet.kcc.io/
+
 const ethers = require("ethers");
 const Provider = require('../utils/provider')
 const fs = require("fs");
 const chalk = require("chalk");
 const erc20Abi = require('../abis/erc20.json')
-
-// kcc network info: https://docs.kcc.io/developers/network-endpoints
-// kcc faucet: https://faucet.kcc.io/
-
 
 // input your private key here
 const wallet = new ethers.Wallet('replace with your private key', new Provider({
@@ -29,7 +28,6 @@ const overrides = {
   gasPrice: "0x3b9aca00", // "1000000000",
   gasLimit: "0x7a120" // "500000",
 };
-
 
 const sendBaseToken = async (to, amount) => {
   const tx = await wallet.sendTransaction({
@@ -48,7 +46,6 @@ const sendErc20 = async (to, amount, contractAddress) => {
   console.log(chalk.green(`Successfully sent ${amount} ERC20 to ${to}, detail: https://scan-testnet.kcc.network/tx/${tx.hash}`));
   return tx;
 };
-
 
 const main = async () => {
   await sendBaseToken('target transfer address', '0.1');
