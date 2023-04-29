@@ -1,7 +1,7 @@
 /*
  * @LastEditors: Bot80926
  * @Description: run the script to swap & add liquidity & stake LP token to get bonus. 一键完成dex交互，包括swap/添加流动性/质押LP挖矿。撸羊毛的必备脚本
- * @LastEditTime: 2023-04-29 10:18:04
+ * @LastEditTime: 2023-04-29 10:56:31
  * @FilePath: /ethers-scripts/script-4-bonus-getting-on-dex/index.js
  * Copyright (c) 2023 by Bot80926, All Rights Reserved.
  */
@@ -139,6 +139,7 @@ const main = async () => {
 
   // // swap twice times
   if (Number(ethers.utils.formatEther(kcsBalance)) > Number(amount) * 1.5 && Number(ethers.utils.formatEther(usdtBalance)) > Number(amount)) { // amount times 150% in order to confirm that the balance is sufficient, no exact value, just > 100%
+    await approveLP2Router();
     await swapKCS2USDT();
     await swapUSDT2KCS();
   } else {
@@ -146,7 +147,6 @@ const main = async () => {
   }
 
   // add liquidity
-  await approveLP2Router();
   await addLiquidity(tokens["kcc-testnet"].USDT, '0.0001', '0.1');
 
   // deposit LP token & withdraw
