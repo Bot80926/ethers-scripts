@@ -50,7 +50,9 @@ Successfully created wallets in batches, file name: addr_key_book.txt
 
 ## Maintainers
 
-[@Bot80926](https://github.com/Bot80926).
+[@Bot80926](https://github.com/Bot80926)
+
+[中文博客讲解](https://blog.csdn.net/qq_31915745?type=blog)
 
 ## Contributing
 
