@@ -25,6 +25,7 @@
   "homepage": "https://github.com/Bot80926/ethers-scripts#readme",
   "dependencies": {
     "chalk": "^4.0.0",
+    "ethereum-input-data-decoder": "^0.4.2",
     "ethers": "^4.0.49"
   }
 }
