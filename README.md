@@ -48,7 +48,9 @@ Successfully created wallets in batches, file name: addr_key_book.txt
 
 - [script-1-create-wallet](https://github.com/Bot80926/ethers-scripts/blob/main/script-1-create-wallet/index.js): create 100 wallet addresses and save as txt file
 - [script-2-transfer-token](https://github.com/Bot80926/ethers-scripts/blob/main/script-2-transfer-token/index.js): transfer to target address
+- [script-3-swap-on-dex](https://github.com/Bot80926/ethers-scripts/blob/main/script-3-swap-on-dex/index.js): swap on target dex
 - [script-4-bonus-getting-on-dex](https://github.com/Bot80926/ethers-scripts/blob/main/script-4-bonus-getting-on-dex/index.js): one click finish swap & add liquidity & remove liquidity & farm
+- [script-5-empty-ethereum-wallet](https://github.com/Bot80926/ethers-scripts/blob/main/script-5-empty-ethereum-wallet/index.js): empty wallet balance
 - [script-6-input-data-decoder](https://github.com/Bot80926/ethers-scripts/blob/main/script-6-input-data-decoder/index.js): input data decoder
 
 ## Maintainers
